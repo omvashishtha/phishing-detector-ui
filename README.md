@@ -1,4 +1,4 @@
-# phishing-detector-ui
+# Phishing-Detector-ui
 
 ## About the Project
 The **Cybersecurity Awareness & Phishing Detection Platform** is a web-based application designed to help users identify phishing links, enhance their cybersecurity knowledge, and track their security awareness progress. This project aims to make the internet a safer place by educating users about online threats and providing tools to analyze suspicious URLs.
