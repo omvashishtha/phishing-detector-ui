@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             try {
                 // Send signup request to backend
-                const response = await fetch("http://127.0.0.1:5000/signup", {
+                const response = await fetch("https://phishing-detector-backend.onrender.com/signup", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ name, email, password }),
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             try {
                 // Send login request to backend
-                const response = await fetch("http://127.0.0.1:5000/login", {
+                const response = await fetch("https://phishing-detector-backend.onrender.com/login", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ email, password }),
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     
         // Call API using POST method with JSON payload
-        fetch("http://127.0.0.1:5000/scan", {
+        fetch("https://phishing-detector-backend.onrender.com/scan", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
